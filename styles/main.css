@@ -50,11 +50,16 @@ header p {
   text-decoration: none;
 }
 hr {
-  height: 1px;
+  border:none;
+  height: 2px;
   width: 100%;
+  color: black;
   background-color: black;
 }
-/* -----------skill-section----------- */
+a{
+  color:#333;
+}
+/* ----------skill-section----------- */
 .skills h3 {
   font-weight: 750;
 }
@@ -62,10 +67,13 @@ hr {
   font-size: 14px;
   padding: 5px 30px;
 }
+.skills ul li{
+  margin-bottom: 3px;
+}
 .skills ul li span:first-child {
   font-weight: 700;
 }
-/* ----------Project-section---------- */
+/* ----------Project-section--------- */
 .projects {
   margin: 5px 0;
 }
@@ -76,6 +84,9 @@ hr {
   font-weight: 500;
   font-size: 14px;
   padding: 5px 30px;
+}
+.projects ul li{
+  margin-bottom: 5px;
 }
 .first-project ul span,.second-project ul span {
   font-weight: 600;
@@ -88,6 +99,9 @@ hr {
   font-weight: 500;
   font-size: 14px;
   padding: 5px 30px;
+}
+.education ul li{
+  margin-bottom: 8px;
 }
 .education ul span:first-child{
   font-weight: 700;
